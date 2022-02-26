@@ -158,36 +158,56 @@ code, .card .line-numbers {
 }
 
 @media screen and (max-width: 1056px) {
-    .maincard{
+    /* .maincard{
       transition: all 0.5s;
       grid-template-columns: auto;
       grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-column-gap: 2.5rem;
       grid-row-gap: 2rem; 
-    }
+    } */
+    .maincard{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.5s;
+    } 
 }
 
 @media screen and (max-width: 556px) {
-    .maincard{
+    /* .maincard{
       transition: all 0.5s;
       grid-template-columns: auto;
       grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-column-gap: 2.5rem;
       grid-row-gap: 2rem; 
+    } */
+    .maincard{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.5s;
     }
     .card {
       position: relative;
-      width: 80vw;
+      width: 80vw; 
       height: 15rem; 
       perspective: 150rem;
     }
     code{
-      font-size: 14px;
+      /* font-size: 14px; */
+      height: 12vh;
+      width: 45vw;
     }
 } 
 
 @media screen and (max-width: 425px) {
   code{
-    font-size: 12px;
+    font-size: 12px; 
+  }
+} 
+
+@media screen and (max-width: 250px) {
+  code{
+    font-size: 11.5px;
   }
 }
