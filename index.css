@@ -25,14 +25,19 @@ code, .card .line-numbers {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 14px;
 } 
-
+ 
 .header-benefit{
-    color: black;
+    color: black; 
     margin: 0 20px 20px 20px;
 }
 .header-benefit h1{
   margin: 0;
   text-shadow: 1px 1px cyan;
+  font-family: Title revamped;  
+}
+.header-benefit p{
+  font-family: nunito;
+  font-size: 17px;
 }
 
 .maincard{
@@ -154,10 +159,35 @@ code, .card .line-numbers {
 
 @media screen and (max-width: 1056px) {
     .maincard{
-        transition: all 0.5s;
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 2.5rem;
-        grid-row-gap: 2rem; 
+      transition: all 0.5s;
+      grid-template-columns: auto;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 2.5rem;
+      grid-row-gap: 2rem; 
     }
+}
+
+@media screen and (max-width: 556px) {
+    .maincard{
+      transition: all 0.5s;
+      grid-template-columns: auto;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 2.5rem;
+      grid-row-gap: 2rem; 
+    }
+    .card {
+      position: relative;
+      width: 80vw;
+      height: 15rem; 
+      perspective: 150rem;
+    }
+    code{
+      font-size: 14px;
+    }
+} 
+
+@media screen and (max-width: 425px) {
+  code{
+    font-size: 12px;
+  }
 }
