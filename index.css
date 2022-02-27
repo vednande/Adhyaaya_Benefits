@@ -1,3 +1,4 @@
+
 *, *:before, *:after {
   box-sizing: border-box;
   outline: none;
@@ -30,14 +31,31 @@ code, .card .line-numbers {
     color: black; 
     margin: 0 20px 20px 20px;
 }
-.header-benefit h1{
+.header-benefit h1{ 
   margin: 0;
-  text-shadow: 1px 1px cyan;
-  font-family: Title revamped;  
+  font-size: 45px; 
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Shippori Antique B1', sans-serif;
+  font-family: 'Tourney', cursive;
+  font-family: 'Ubuntu', sans-serif; 
+  
 }
 .header-benefit p{
-  font-family: nunito;
   font-size: 17px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Shippori Antique B1', sans-serif;
+  font-family: 'Tourney', cursive;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .maincard{
@@ -188,7 +206,7 @@ code, .card .line-numbers {
       transition: all 0.5s;
     } 
     .card {
-      position: relative;
+      position: relative; 
       width: 80vw; 
       height: 15rem; 
       perspective: 150rem;
