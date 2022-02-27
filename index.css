@@ -186,16 +186,20 @@ code, .card .line-numbers {
       flex-direction: column;
       align-items: center;
       transition: all 0.5s;
-    }
+    } 
     .card {
       position: relative;
       width: 80vw; 
       height: 15rem; 
       perspective: 150rem;
     }
-    code{
+    .card-front code{
       /* font-size: 14px; */
       height: 12vh;
+      width: 45vw;
+    }
+    .card-back code{
+      height: 27vh;
       width: 45vw;
     }
 } 
